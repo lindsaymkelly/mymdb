@@ -1,0 +1,46 @@
+html {
+  font-family: Verdana, Geneva, sans-serif;
+  background-color: #acadaf;
+}
+
+#welcome {
+  font-size: 3.5em;
+  color: #246ee5;
+  text-align: center;
+
+}
+
+.movie-details {
+  display: inline-block;
+  float: right;
+}
+
+.title {
+  font-size: 1.3em;
+  color: #246ee5;
+}
+
+.year {
+  font-size: 1.1em;
+  color: #1d2682;
+  font-style: oblique;
+}
+
+.searchBar {
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+.searchText {
+  font-size: 1.2em;
+  font-style: oblique;
+  color: #152b4f;
+}
+
+.movieHeader {
+  color: #152b4f;
+  font-size: 2.4em;
+  padding-left: 25px;
+
+}

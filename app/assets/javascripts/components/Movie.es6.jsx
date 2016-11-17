@@ -4,13 +4,15 @@ class Movie extends React.Component {
     return(
       <li className="movie">
         <img className="poster" src={data.Poster} alt=""/>
-        <p>
-          <span className="title">{data.Title}</span>
-          <br/>
-          <span className="year">{data.Year}</span>
-
-        </p>
-        <p>{data.Plot}</p>
+        <div className="movie-details">
+          <p>
+            <span className="title">{data.Title}</span>
+            <br/>
+            <span className="year">{data.Year}</span>
+            <br/>
+            <br/>
+          </p>
+        </div>
       </li>
     )
   }

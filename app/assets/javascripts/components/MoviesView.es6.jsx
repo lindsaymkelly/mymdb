@@ -2,7 +2,7 @@ class MoviesView extends React.Component {
   render(){
     return(
       <section id="movies-list">
-      <h2>Movies:</h2>
+      <h2 className="movieHeader">Movies:</h2>
         <ul>
           {
             this.props.data.map((movie, i) => {
