@@ -1,24 +1,5 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+MyMDB is an application built to practice Rails, React, and working with APIs.  The data is pulled from the [OMDB API.](http://www.omdbapi.com/)
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Also, thanks to [Animate.css](https://daneden.github.io/animate.css/)
