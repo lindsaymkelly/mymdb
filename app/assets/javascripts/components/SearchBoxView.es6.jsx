@@ -14,7 +14,7 @@ class SearchBoxView extends React.Component {
   render(){
     return(
       <div className="searchBar">
-        <form onSubmit={this.handleSubmit.bind(this)}>
+        <form onChange={this.handleSubmit.bind(this)}>
           <span className="searchText">Search for a movie: </span><br/>
           <input ref="searchField" type="text" name="query"/>
           <input type="submit" value="Search"/>
