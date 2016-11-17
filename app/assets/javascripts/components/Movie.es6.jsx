@@ -3,13 +3,14 @@ class Movie extends React.Component {
     let data = this.props.data
     return(
       <li className="movie">
+        <img className="poster" src={data.Poster} alt=""/>
         <p>
-          <span className="title">{data.title}</span>
-          <span className="year">{data.year}</span>
-          <span className="rated">{data.rated}</span>
-          <span className="genre">{data.genre}</span>
+          <span className="title">{data.Title}</span>
+          <br/>
+          <span className="year">{data.Year}</span>
+
         </p>
-        <p>{data.plot}</p>
+        <p>{data.Plot}</p>
       </li>
     )
   }

@@ -3,12 +3,12 @@ class SearchBoxView extends React.Component {
     event.preventDefault();
     let search = this.refs.searchField.value;
     $.ajax({
-      url: `http://www.omdbapi.com/?s${search}`,
+      url: `http://www.omdbapi.com/?s=${search}`,
       method: 'get'
     })
     .done(function(response){
       console.log(response);
-      this.props.onUpdate(response);
+      this.props.onUpdate(response.Search);
     }.bind(this))
   }
   render(){

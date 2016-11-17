@@ -7,10 +7,14 @@ class App extends React.Component {
   }
 
 updateMovies(searchedMovies){
+  // debugger;
   this.setState({
     movies: searchedMovies
+
   })
+
 }
+
 
   render(){
     return(
